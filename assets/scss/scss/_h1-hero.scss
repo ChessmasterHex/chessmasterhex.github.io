@@ -1,0 +1,103 @@
+            .slider-height {
+                min-height: 940px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+                @media #{$laptop} {
+                    min-height: 700px;
+                }
+                @media #{$md} {
+                    min-height: 600px;
+                }
+                @media #{$xs} {
+                    min-height: 600px;
+                }
+            }
+            
+            // sobre slider
+            .slider-area .hero__caption2 {
+                &::before {
+                    display: none;
+                }
+                &::after {
+                    display: none;
+                }
+            }
+            
+            .slider-area .hero__img2 img {
+                margin-left: -51px;
+                padding-top: 50px;
+            }
+            
+            // sobre shape
+            .about-shape {
+                .shape-left {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                    @media #{$laptop} {
+                        // display: none;
+                    }
+                    @media #{$lg} {
+                        display: none;
+                    }
+                    @media #{$md} {
+                        display: none;
+                    }
+                    @media #{$sm} {
+                        display: none;
+                    }
+                    @media #{$xs} {
+                        display: none;
+                    }
+                }
+                .shape-right {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    z-index: -1;
+                    @media #{$laptop} {
+                        // display: none;
+                    }
+                    @media #{$lg} {
+                        display: none;
+                    }
+                    @media #{$md} {
+                        display: none;
+                    }
+                    @media #{$sm} {
+                        display: none;
+                    }
+                    @media #{$xs} {
+                        display: none;
+                    }
+                }
+            }
+            
+            .slider-area {
+                margin-top: -1px;
+                .hero__caption {
+                    @media #{$xs} {
+                        padding-top: 17px;
+                    }
+                    position: relative;
+                }
+                // services page
+                .services-area {
+                    padding-top: 270px;
+                    @media #{$lg} {
+                        padding-top: 200px;
+                    }
+                    @media #{$md} {
+                        padding-top: 150px;
+                    }
+                    @media #{$sm} {
+                        padding-top: 150px;
+                    }
+                    @media #{$xs} {
+                        padding-top: 130px;
+                    }
+                }
+            }
