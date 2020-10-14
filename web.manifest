@@ -1,0 +1,34 @@
+    <!-- <script type="application/ld+json" class="yoast-schema-graph">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "WebSite",
+                "@id": "https://redabrain.com/#website",
+                "url": "https://redabrain.com/",
+                "name": "Article Group",
+                "description": "Comunicação é o nosso forte.",
+                "potentialAction": [{
+                    "@type": "SearchAction",
+                    "target": "https://redabrain.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }],
+                "inLanguage": "pt-BR"
+            }, {
+                "@type": "WebPage",
+                "@id": "https://redabrain.com/#webpage",
+                "url": "https://redabrain.com/",
+                "name": "Redabrain Digital",
+                "isPartOf": {
+                    "@id": "https://redabrain.com/#website"
+                },
+                "datePublished": "2018-07-29T00:27:30+00:00",
+                "dateModified": "2020-09-16T18:22:51+00:00",
+                "description": "Seja bem vindo! A Criatividade é o nosso negócio. Pode ser desde uma simples página ou o Gerenciamento de suas Campanhas Publicitárias ou até mesmo o desenvolvimento da sua ideia no Mundo Virtual, estamos aqui para ajudar!",
+                "inLanguage": "pt-BR",
+                "potentialAction": [{
+                    "@type": "ReadAction",
+                    "target": ["https://redabrain.com/"]
+                }]
+            }]
+        }
+    </script> -->

@@ -2645,12 +2645,12 @@ hr {
 }
 
 .header-area .slicknav_btn {
-    top: -36px
+    top: -30px
 }
 
 .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #FF0095
+    /*color: #FF0095*/
 }
 
 .slicknav_menu {
