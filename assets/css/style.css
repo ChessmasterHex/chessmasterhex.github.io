@@ -2059,36 +2059,36 @@ hr {
     }
 }
 
-.we-padding {
+.w3-padding {
     padding-top: 100px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    .we-padding {
+    .w3-padding {
         padding-top: 100px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .we-padding {
+    .w3-padding {
         padding-top: 80px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .we-padding {
+    .w3-padding {
         padding-top: 80px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .we-padding {
+    .w3-padding {
         padding-top: 80px
     }
 }
 
 @media (max-width: 767px) {
-    .we-padding {
+    .w3-padding {
         padding-top: 80px
     }
 }
@@ -2770,7 +2770,7 @@ hr {
 }
 
 .slider-area .hero__caption {
-    position: relative
+    position: absolute;
 }
 
 @media (max-width: 767px) {
@@ -2983,11 +2983,11 @@ hr {
     }
 }
 
-.what-we-do {
+.o-que-fazemos {
     position: relative
 }
 
-.what-we-do::before {
+.o-que-fazemos::before {
     background-image: url(../img/shape/what_do.png);
     position: absolute;
     content: "";
@@ -3002,24 +3002,24 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .what-we-do::before {
+    .o-que-fazemos::before {
         display: none
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .what-we-do::before {
+    .o-que-fazemos::before {
         display: none
     }
 }
 
 @media (max-width: 767px) {
-    .what-we-do::before {
+    .o-que-fazemos::before {
         display: none
     }
 }
 
-.what-we-do::after {
+.o-que-fazemos::after {
     background-image: url(../img/shape/what_do_right.png);
     position: absolute;
     content: "";
@@ -3035,30 +3035,30 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .what-we-do::after {
+    .o-que-fazemos::after {
         display: none
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .what-we-do::after {
+    .o-que-fazemos::after {
         display: none
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .what-we-do::after {
+    .o-que-fazemos::after {
         display: none
     }
 }
 
 @media (max-width: 767px) {
-    .what-we-do::after {
+    .o-que-fazemos::after {
         display: none
     }
 }
 
-.what-we-do .single-do {
+.o-que-fazemos .single-do {
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -3069,53 +3069,53 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .what-we-do .single-do {
+    .o-que-fazemos .single-do {
         padding: 41px 17px 63px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .what-we-do .single-do {
+    .o-que-fazemos .single-do {
         padding: 41px 17px 63px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .what-we-do .single-do {
+    .o-que-fazemos .single-do {
         padding: 41px 17px 63px
     }
 }
 
 @media (max-width: 767px) {
-    .what-we-do .single-do {
+    .o-que-fazemos .single-do {
         padding: 41px 17px 63px
     }
 }
 
-.what-we-do .single-do .do-icon span {
+.o-que-fazemos .single-do .do-icon span {
     font-size: 73px;
     margin-bottom: 20px;
     display: inline-block;
     color: #FF0095
 }
 
-.what-we-do .single-do .do-caption h4 {
+.o-que-fazemos .single-do .do-caption h4 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 23px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .what-we-do .single-do .do-caption h4 {
+    .o-que-fazemos .single-do .do-caption h4 {
         font-size: 21px
     }
 }
 
-.what-we-do .single-do .do-caption p {
+.o-que-fazemos .single-do .do-caption p {
     margin-bottom: 40px
 }
 
-.what-we-do .single-do .do-btn a {
+.o-que-fazemos .single-do .do-btn a {
     color: #c5ccd8;
     text-transform: uppercase;
     font-size: 13px;
@@ -3127,7 +3127,7 @@ hr {
     transition: all .3s ease-out 0s
 }
 
-.what-we-do .single-do .do-btn a i {
+.o-que-fazemos .single-do .do-btn a i {
     background: #c5ccd8;
     width: 24px;
     height: 24px;
